@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountCreation"
+    android:background="@color/activity_account_creation_background_color">
+
+    <!--EZ-Expense Logo Image-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/ez_expense_logo" />
+
+    <!--Register Text -->
+    <TextView
+        android:id="@+id/header_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#59981A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/main_GV"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <!--Grid -->
+    <GridView
+        android:id="@+id/main_GV"
+        android:layout_width="370dp"
+        android:layout_height="330dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <EditText
+        android:id="@+id/username_ET"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:autofillHints=""
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@id/header_TV"
+        app:layout_constraintEnd_toEndOf="@id/header_TV"
+        app:layout_constraintTop_toBottomOf="@id/header_TV" />
+
+    <!--Email Address Text -->
+    <EditText
+        android:id="@+id/email_ET"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:autofillHints=""
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@id/username_ET"
+        app:layout_constraintEnd_toEndOf="@id/username_ET"
+        app:layout_constraintTop_toBottomOf="@id/username_ET" />
+
+    <!--Password Text -->
+    <EditText
+        android:id="@+id/password_ET"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:autofillHints=""
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@id/email_ET"
+        app:layout_constraintEnd_toEndOf="@id/email_ET"
+        app:layout_constraintTop_toBottomOf="@id/email_ET" />
+
+    <!--Confirm Password Text -->
+    <EditText
+        android:id="@+id/confirmPassword_ET"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:autofillHints=""
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@id/password_ET"
+        app:layout_constraintEnd_toEndOf="@id/password_ET"
+        app:layout_constraintTop_toBottomOf="@id/password_ET" />
+
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_Btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/submit"
+        app:layout_constraintStart_toStartOf="@id/confirmPassword_ET"
+        app:layout_constraintEnd_toEndOf="@id/password_ET"
+        app:layout_constraintTop_toBottomOf="@id/confirmPassword_ET" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

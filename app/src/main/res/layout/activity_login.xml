@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <!--EZ-Expense Logo Image-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <!--Sign In Text -->
+    <TextView
+        android:id="@+id/header_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/signin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#59981A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/main_GV"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <!--Grid -->
+    <GridView
+        android:id="@+id/main_GV"
+        android:layout_width="370dp"
+        android:layout_height="330dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <EditText
+        android:id="@+id/username1_ET"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:autofillHints=""
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@id/header_TV"
+        app:layout_constraintEnd_toEndOf="@id/header_TV"
+        app:layout_constraintTop_toBottomOf="@id/header_TV" />
+
+    <!--Password Text -->
+    <EditText
+        android:id="@+id/password1_ET"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:autofillHints=""
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@id/username1_ET"
+        app:layout_constraintEnd_toEndOf="@id/username1_ET"
+        app:layout_constraintTop_toBottomOf="@id/username1_ET" />
+
+
+    <!-- Sign In/Login Button -->
+    <Button
+        android:id="@+id/login_Btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/signinBtn"
+        app:layout_constraintStart_toStartOf="@id/password1_ET"
+        app:layout_constraintEnd_toEndOf="@id/password1_ET"
+        app:layout_constraintTop_toBottomOf="@id/password1_ET" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

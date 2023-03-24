@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EZ-Expense</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email_address">email address</string>
+    <string name="submit">submit</string>
+    <string name="username">username</string>
+    <string name="signin">Sign In</string>
+    <string name="signinBtn">Sign In</string>
+</resources>
