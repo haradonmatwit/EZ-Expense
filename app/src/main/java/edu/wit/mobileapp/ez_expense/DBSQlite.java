@@ -3,6 +3,7 @@ package edu.wit.mobileapp.ez_expense;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -84,5 +85,20 @@ public class DBSQlite extends SQLiteOpenHelper {
             return false;
         }
     }
+
+    /* method to fetch data from SQLite database and return the data*/
+   /* public Cursor viewData() {
+
+        /* creates SQLite Database object and gets readable database */
+       /* SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
+
+        /* creates Cursor object
+        *  by using SQLite database object */
+      /*  Cursor cursor = sqLiteDatabase.rawQuery("select * from users", null);
+
+        return cursor;
+    } */
+
+
 }
 

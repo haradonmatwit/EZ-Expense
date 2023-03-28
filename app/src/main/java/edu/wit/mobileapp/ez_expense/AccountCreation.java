@@ -59,8 +59,8 @@ public class AccountCreation extends AppCompatActivity {
                               if not then say toast message registration failed*/
                             if(insert == true) {
                                 Toast.makeText(AccountCreation.this, "Registered Successfully!", Toast.LENGTH_SHORT).show();
-
-                                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), RegistrationWelcomePage.class);
+                                intent.putExtra("USERNAME", user);
                                 startActivity(intent);
                             } else {
                                 Toast.makeText(AccountCreation.this, "Registration Failed", Toast.LENGTH_SHORT).show();
