@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrationWelcomePage">
+    tools:context=".WorkLocationQ">
 
     <TextView
-        android:id="@+id/welcome_TV"
+        android:id="@+id/welcomeTV_WLQ"
         android:layout_width="129dp"
         android:layout_height="36dp"
         android:text="Welcome "
@@ -20,40 +20,53 @@
         app:layout_constraintVertical_bias="0.178" />
 
     <TextView
-        android:id="@+id/username_ARTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/username_WLQ"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
         android:text="TextView"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintHorizontal_bias="0.688"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.178" />
 
     <TextView
-        android:id="@+id/message_TV"
-        android:layout_width="299dp"
-        android:layout_height="99dp"
-        android:text="Let's get some information about your income!"
+        android:id="@+id/workLocationQuestion_TV"
+        android:layout_width="209dp"
+        android:layout_height="45dp"
+        android:text="Where Do You Work?"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.28" />
+
+    <EditText
+        android:id="@+id/workLocationName_ET"
+        android:layout_width="241dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter your work name here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
 
     <Button
-        android:id="@+id/nextBtn_ARW_page"
+        android:id="@+id/nextBtn_WLQ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next ->"
+        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="20sp"/>
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

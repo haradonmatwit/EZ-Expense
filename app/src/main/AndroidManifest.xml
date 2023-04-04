@@ -14,6 +14,15 @@
         android:theme="@style/Theme.EZExpense"
         tools:targetApi="31">
         <activity
+            android:name=".EarningsPage"
+            android:exported="false" />
+        <activity
+            android:name=".WorkPositionQ"
+            android:exported="false" />
+        <activity
+            android:name=".WorkLocationQ"
+            android:exported="false" />
+        <activity
             android:name=".RegistrationWelcomePage"
             android:exported="false" />
         <activity
