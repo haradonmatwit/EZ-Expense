@@ -4,13 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_account_creation.xml" value="0.2" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_another.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_earnings_page.xml" value="0.264" />
-        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_login.xml" value="0.2875" />
-        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_more_jobs.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_pay_freq_hourly.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_registration_welcome_page.xml" value="0.24818840579710144" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_remind_me_time.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_reminders_calendar.xml" value="0.264" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_salary_main.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_work_location_q.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_work_position_q.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/activity_yn_monthly_payment.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/smilyanovay/Projects/EZExpense/app/src/main/res/layout/list_item_salary_main.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

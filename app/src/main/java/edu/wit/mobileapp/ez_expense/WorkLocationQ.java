@@ -21,32 +21,38 @@ public class WorkLocationQ extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_work_location_q);
 
-        welcome = (TextView) findViewById(R.id.welcomeTV_WLQ);
-        user = (TextView) findViewById(R.id.username_WLQ);
+        /*welcome = (TextView) findViewById(R.id.welcomeTV_WLQ); */
+        /*user = (TextView) findViewById(R.id.username_WLQ); */
         workLocationQuestion = (TextView) findViewById(R.id.workLocationQuestion_TV);
         workLocation = (EditText) findViewById(R.id.workLocationName_ET);
         nextBtn = (Button) findViewById(R.id.nextBtn_WLQ);
 
-        Intent i = getIntent();
+      /*  Intent i = getIntent();
         String username = i.getStringExtra("USERNAME");
-        user.setText(username);
+        user.setText(username); */
 
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWorkPositionQ(user, workLocation);
+                //openWorkPositionQ(user, workLocation);
+                openWorkPositionQ();
             }
         });
     }
 
-    public void openWorkPositionQ(TextView user, EditText workLocation) {
+    public void openWorkPositionQ() {
         Intent intent = new Intent(this, WorkPositionQ.class);
-        /* Gets text from TextView and assigns it to String variable*/
-        String u = user.getText().toString();
-        intent.putExtra("USERNAME", u);
-
-        /* Gets text from EditText and assigns it to String variable*/
-        intent.putExtra("WorkLocation",workLocation.getText().toString());
         startActivity(intent);
     }
+
+//    public void openWorkPositionQ(TextView user, EditText workLocation) {
+//        Intent intent = new Intent(this, WorkPositionQ.class);
+//        /* Gets text from TextView and assigns it to String variable*/
+//        String u = user.getText().toString();
+//        intent.putExtra("USERNAME", u);
+//
+//        /* Gets text from EditText and assigns it to String variable*/
+//        intent.putExtra("WorkLocation",workLocation.getText().toString());
+//        startActivity(intent);
+//    }
 }

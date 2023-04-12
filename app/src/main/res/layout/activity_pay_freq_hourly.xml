@@ -5,42 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E8D6CC"
-    tools:context=".WorkLocationQ">
-
-    <!--
-    <TextView
-        android:id="@+id/welcomeTV_WLQ"
-        android:layout_width="129dp"
-        android:layout_height="36dp"
-        android:text="Welcome "
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+    tools:context=".PayFreqHourly">
 
     <TextView
-        android:id="@+id/username_WLQ"
-        android:layout_width="87dp"
-        android:layout_height="35dp"
-        android:text="TextView"
-        android:textColor="#46385A"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.688"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />  -->
-
-    <TextView
-        android:id="@+id/workLocationQuestion_TV"
-        android:layout_width="291dp"
-        android:layout_height="57dp"
-        android:text="Where Do You Work?"
+        android:id="@+id/textView1_PFH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I get paid"
         android:textColor="#46385A"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -48,35 +19,52 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintVertical_bias="0.353"
+        tools:text="I get paid" />
 
-    <EditText
-        android:id="@+id/workLocationName_ET"
-        android:layout_width="241dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Enter your work name here"
+    <TextView
+        android:id="@+id/textView2_PFH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="every"
+        android:textColor="#46385A"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintVertical_bias="0.428"
+        tools:text="every:" />
+
+    <Spinner
+        android:id="@+id/spinnerPFH"
+        android:layout_width="326dp"
+        android:layout_height="59dp"
+        android:backgroundTintMode="src_in"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
 
     <Button
-        android:id="@+id/nextBtn_WLQ"
+        android:id="@+id/button_PFH"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.711" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +72,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152"
-        app:srcCompat="@drawable/work_location_icon" />
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/pay_freq_hourly_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

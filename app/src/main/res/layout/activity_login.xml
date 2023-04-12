@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CCBFFF"
     tools:context=".LoginActivity">
 
     <!--EZ-Expense Logo Image-->
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="110dp"
-        android:layout_height="103dp"
+        android:id="@+id/imageView9"
+        android:layout_width="149dp"
+        android:layout_height="139dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/ezexpensepurplelogo" />
 
     <!--Sign In Text -->
     <TextView
@@ -44,7 +46,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.406" >
+    </GridView>
 
     <EditText
         android:id="@+id/username1_ET"

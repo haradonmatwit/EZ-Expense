@@ -32,17 +32,24 @@ public class RegistrationWelcomePage extends AppCompatActivity {
         nextBT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWorkLocationQ(user);
+
+                //openWorkLocationQ(user);
+                openWorkLocationQ();
             }
         });
     }
 
-    public void openWorkLocationQ(TextView user) {
+    public void openWorkLocationQ() {
         Intent intent = new Intent(this, WorkLocationQ.class);
-        /* Gets text from TextView and assigns it to String variable*/
-        String u = user.getText().toString();
-        intent.putExtra("USERNAME", u);
         startActivity(intent);
     }
+
+//    public void openWorkLocationQ(TextView user) {
+//        Intent intent = new Intent(this, WorkLocationQ.class);
+//        /* Gets text from TextView and assigns it to String variable*/
+//        String u = user.getText().toString();
+//        intent.putExtra("USERNAME", u);
+//        startActivity(intent);
+//    }
 }
 
