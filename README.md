@@ -27,7 +27,7 @@ To be able to recreate this project:
    Opening the project through cloned repository link:
    
           1) To clone the project, on the GitHub repository click on the green drop down button which says "Code" and copy the hyperlink
-          2) Open Android Studios COde then go to File > New > Project from Version Control
+          2) Open Android Studios Code then go to File > New > Project from Version Control
           3) After clicking on the "Project from Version Control" a pop-up screen will appear. In the "Version control" click the drop-down menu and select "Git"
           4) In the "URL" paste the project link which you copied and then choose your Directory
           5) Click on the "Clone" button
@@ -35,6 +35,11 @@ To be able to recreate this project:
      
 3) After downloaded, the user can either log into an existing account or create a new account.
 4)Once the account has been established, the previous data will be displayed. 
+5) Next you will need to create an emulator (you will do this once), you will follow these steps:
+            -click device manager in the upper right hand corner
+            -click create device
+            -make sure that it is a phone and the version we used was pixel 2 
+            - there will be a triangle on the same line as device, click to run
 
 
 
