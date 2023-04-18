@@ -11,9 +11,13 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 To be able to recreate this project:
 
 1) Download Android Studio to begin https://developer.android.com/studio?gclid=EAIaIQobChMIj53k-b-0_gIV8iuzAB2f0QecEAAYASAAEgL0pfD_BwE&gclsrc=aw.ds . The link will bring you to a site that will allow yout ot download Android Studio the download link will be at the bottom.
-2) Either download and export the zip file for EZ-Expense or copy the repository link and clone it in Android Studios under clone URL option.
-3) After downloaded, the user can either log into an existing account or create a new account.
-4)Once the account has been established, the previous data will be displayed. 
+![image](https://user-images.githubusercontent.com/55000983/232921413-f9e7b7e6-51e2-46f8-ad53-4c9cd7075ca9.png)
+
+
+
+3) Either download and export the zip file for EZ-Expense or copy the repository link and clone it in Android Studios under clone URL option.
+4) After downloaded, the user can either log into an existing account or create a new account.
+5)Once the account has been established, the previous data will be displayed. 
 
 
 
