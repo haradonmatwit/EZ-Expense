@@ -12,3 +12,18 @@ To be able to recreate this project:
 
 1) Download Android Studio to begin.
 2) Either download and export the zip file for EZ-Expense or, copy the repository link and clone it in Android Studios under clone URL option
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
