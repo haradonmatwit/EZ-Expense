@@ -11,8 +11,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 To be able to recreate this project:
 
 1) Download Android Studio to begin.
-2) Either download and export the zip file for EZ-Expense or, copy the repository link and clone it in Android Studios under clone URL option
-
+2) Either download and export the zip file for EZ-Expense or, copy the repository link and clone it in Android Studios under clone URL option.
+3) After downloaded, the user can either log into an existing account or create a new account.
+4)Once the account has been established, the previous data will be displayed. 
 
 
 
