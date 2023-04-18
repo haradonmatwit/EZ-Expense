@@ -34,7 +34,9 @@ To be able to recreate this project:
   
      
 3) After downloaded, the user can either log into an existing account or create a new account.
+
 4)Once the account has been established, the previous data will be displayed. 
+
 5) Next you will need to create an emulator (you will do this once), you will follow these steps:
 
           -click device manager in the upper right hand corner
